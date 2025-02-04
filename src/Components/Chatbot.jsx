@@ -12,7 +12,6 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-
   // Function to send user input to Groq
   const sendMessage = async () => {
     if (!input.trim()) return;

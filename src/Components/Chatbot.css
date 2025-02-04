@@ -65,6 +65,7 @@
     margin-top: 20px;
     align-items: center;
     justify-content: space-between;
+    font: italic;
   }
   
   /* Chat Input Text Field */
